@@ -12,3 +12,8 @@ for (const task of todoList){
         completedTodos.push(task)
     }
 }
+
+for (const todo_val of completedTodos){
+    const{ todo } = todo_val
+    console.log(todo)
+}
